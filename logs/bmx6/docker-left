@@ -1,0 +1,31 @@
+ 
+eth0      Link encap:Ethernet  HWaddr 92:48:2f:8a:30:23  
+          inet addr:10.0.0.2  Bcast:0.0.0.0  Mask:255.0.0.0
+          inet6 addr: fe80::9048:2fff:fe8a:3023/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:48 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:7 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:8302 (8.3 KB)  TX bytes:578 (578.0 B)
+
+LOGFILE: /var/log/bmx6/docker-left
+BMX6 container selected
+CMD:   bmx6 debug=0 dev=eth0 
+[01/08/15-10:35:04] STARTING: container-left
+[27        0] INFO  dev_if_fix: Autoconfiguring dev=eth0 idx=518 ip=fd66:66:66:6:9248:2fff:fe8a:3023/64
+[27        0] ERROR dev_if_fix: No global IP for dev=eth0 ! DEACTIVATING !!!
+[27        0] WARN  dev_check: not using interface eth0 (retrying later): DOWN CHANGED ila=0 iln=0
+[27     1067] WARN  dev_check: detected valid but disabled dev=eth0 ! Activating now...
+[27     1067] WARN  dev_activate: dev=eth0
+[27     1067] INFO  dev_reconfigure_soft: eth0 soft interface configuration changed
+[27     1100] INFO  check_proc_sys_net: changing /proc/sys/net/ipv6/conf/all/forwarding from 0 to 1
+[27     1100] INFO  check_proc_sys_net: changing /proc/sys/net/ipv4/conf/all/rp_filter from 1 to 2
+[27     1100] INFO  check_proc_sys_net: changing /proc/sys/net/ipv4/conf/default/rp_filter from 1 to 2
+[27     1100] INFO  check_proc_sys_net: changing /proc/sys/net/ipv4/conf/all/send_redirects from 1 to 0
+[27     1100] INFO  check_proc_sys_net: changing /proc/sys/net/ipv4/conf/default/send_redirects from 1 to 0
+[27     1100] INFO  check_proc_sys_net: changing /proc/sys/net/ipv4/conf/eth0/rp_filter from 1 to 2
+[27     1100] INFO  check_proc_sys_net: changing /proc/sys/net/ipv4/conf/eth0/send_redirects from 1 to 0
+[27   111551] WARN  dev_check: detected changed but used primary dev=eth0 ! Deactivating now...
+[27   111551] WARN  dev_deactivate: deactivating dev=eth0 llocal=fe80::9048:2fff:fe8a:3023 global=fd66:66:66:6:9248:2fff:fe8a:3023
+[27   111551] ERROR rtnl_rcv: ADDRESS_SET error=No such device
+[27   111551] WARN  dev_check: not using interface eth0 (retrying later): DOWN CHANGED ila=0 iln=0

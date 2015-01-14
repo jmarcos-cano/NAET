@@ -1,0 +1,67 @@
+BRIDGES: br: br-right tap: tap-right CREATED
+DOCKER: docker-right CREATED
+NETWORK inside docker: IP:right0.0.0.2/8 CREATED and ATTACHED to BRIDGES
+BRIDGES: br: br-left tap: tap-left CREATED
+DOCKER: docker-left CREATED
+NETWORK inside docker: IP:left0.0.0.3/8 CREATED and ATTACHED to BRIDGES
+BRIDGES: br: br-right tap: tap-right CREATED
+DOCKER: docker-right CREATED
+NETWORK inside DOCKER: docker-right IP:right0.0.0.1/8 CREATED and ATTACHED to BRIDGES
+
+BRIDGES: br: br-left tap: tap-left CREATED
+DOCKER: docker-left CREATED
+NETWORK inside DOCKER: docker-left IP:left0.0.0.2/8 CREATED and ATTACHED to BRIDGES
+
+BRIDGES: br: br-right tap: tap-right CREATED
+DOCKER: docker-right CREATED
+NETWORK inside DOCKER: docker-right IP:right0.0.0.1/8 CREATED and ATTACHED to BRIDGES
+
+BRIDGES: br: br-left tap: tap-left CREATED
+DOCKER: docker-left CREATED
+NETWORK inside DOCKER: docker-left IP:left0.0.0.2/8 CREATED and ATTACHED to BRIDGES
+
+[ 01/08/15-04:31:07 ] BRIDGES: br: br-right tap: tap-right CREATED
+[ 01/08/15-04:31:07 ] DOCKER: docker-right CREATED
+[ 01/08/15-04:31:08 ] NETWORK inside DOCKER: docker-right IP:right0.0.0.1/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-04:31:08 ]
+[ 01/08/15-04:31:08 ] BRIDGES: br: br-left tap: tap-left CREATED
+[ 01/08/15-04:31:08 ] DOCKER: docker-left CREATED
+[ 01/08/15-04:31:08 ] NETWORK inside DOCKER: docker-left IP:left0.0.0.2/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-04:31:08 ]
+[ 01/08/15-04:31:26 ] BRIDGES: br: br-right tap: tap-right CREATED
+[ 01/08/15-04:31:26 ] DOCKER: docker-right CREATED
+[ 01/08/15-04:31:26 ] NETWORK inside DOCKER: docker-right IP:right0.0.0.1/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-04:31:26 ]
+[ 01/08/15-04:31:27 ] BRIDGES: br: br-left tap: tap-left CREATED
+[ 01/08/15-04:31:27 ] DOCKER: docker-left CREATED
+[ 01/08/15-04:31:27 ] NETWORK inside DOCKER: docker-left IP:left0.0.0.2/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-04:31:27 ]
+[ 01/08/15-04:31:54 ] BRIDGES: br: br-right tap: tap-right CREATED
+[ 01/08/15-04:31:55 ] DOCKER: docker-right CREATED
+[ 01/08/15-04:31:55 ] NETWORK inside DOCKER: docker-right IP:right0.0.0.1/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-04:31:55 ]
+[ 01/08/15-04:31:55 ] BRIDGES: br: br-left tap: tap-left CREATED
+[ 01/08/15-04:31:55 ] DOCKER: docker-left CREATED
+[ 01/08/15-04:31:56 ] NETWORK inside DOCKER: docker-left IP:left0.0.0.2/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-04:31:56 ]
+[ 01/08/15-04:34:53 ] BRIDGES: br: br-right tap: tap-right CREATED
+[ 01/08/15-04:34:54 ] DOCKER: docker-right ID: right TYPE: CREATED
+[ 01/08/15-04:34:54 ] NETWORK inside DOCKER: docker-right IP:right0.0.0.1/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-04:34:54 ]
+[ 01/08/15-04:34:54 ] BRIDGES: br: br-left tap: tap-left CREATED
+[ 01/08/15-04:34:54 ] DOCKER: docker-left ID: left TYPE: CREATED
+[ 01/08/15-04:34:55 ] NETWORK inside DOCKER: docker-left IP:left0.0.0.2/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-04:34:55 ]
+[ 01/08/15-04:35:36 ] BRIDGES: br: br-right tap: tap-right CREATED
+[ 01/08/15-04:36:56 ] DOCKER: docker-right ID: right TYPE: CREATED
+[ 01/08/15-04:36:56 ] NETWORK inside DOCKER: docker-right IP:right0.0.0.1/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-04:36:56 ]
+[ 01/08/15-04:36:56 ] BRIDGES: br: br-left tap: tap-left CREATED
+[ 01/08/15-04:37:02 ] DOCKER: docker-left ID: left TYPE: CREATED
+[ 01/08/15-04:37:02 ] NETWORK inside DOCKER: docker-left IP:left0.0.0.2/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-04:37:02 ]
+[ 01/08/15-04:37:17 ] BRIDGES: br: br-right tap: tap-right CREATED
+[ 01/08/15-05:38:45 ] DOCKER: docker-right ID: right TYPE: CREATED
+[ 01/08/15-05:38:45 ] NETWORK inside DOCKER: docker-right IP:right0.0.0.1/8 CREATED and ATTACHED to BRIDGES
+[ 01/08/15-05:38:45 ]
+[ 01/08/15-05:38:45 ] DOCKER: docker-right ID: right TYPE: CREATED
